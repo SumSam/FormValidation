@@ -54,11 +54,11 @@ role="form"
     form-visibility-map="formMap"
     display-option="Item">
 ```
-validate-form
+### validate-form
 
 This directive is to be placed on the form tag. Without this directive none of the features of the FormValidations library would work.
 
-resource-path
+### resource-path
 
 This attribute serves as an input parameter to the validate-form directive, it is the path of the .json file where validation messages are stored as key value pairs.
 
@@ -75,7 +75,7 @@ If the base path is not set in the .config section on the app then the full path
 resource-path="/ValidationMsg/Demo" – Take special notice of the leading “/” if the full path is provided.
 
 
-form-visibility-map
+### form-visibility-map
 
 This is an optional attribute, it accepts an array on the $scope object in the following format.
 scope.formMap = [{ "name": "formDemo", "visible": true }]; 
@@ -98,7 +98,7 @@ scope.ButtonClicked = function () {
 If the 2 scenarios mentioned are not required, then this attribute can be left out from the form tag.
 
 
-display-option
+### display-option
 
 This is also an optional attribute, where the valid values are “Summary” and “Item”. This helps in deciding whether all the messages are to be shown at the top of the form or each message to be shown beside or below the respective controls.
 This option can also be set in the .config section, if not set at both the places it would default to “Summary” view and the option in the form tag will override what is provided in the config section.
@@ -125,3 +125,10 @@ This option can also be set in the .config section, if not set at both the place
     <div validation-for="Name"></div>
     </div>
     ```
+
+#License
+The MIT License (MIT)
+Copyright (c) 2015 Sumanth Sampath
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
