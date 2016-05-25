@@ -66,7 +66,7 @@ This attribute serves as an input parameter to the validate-form directive, it i
 <input type="text" class="form-control" name="Name" ng-model="Demo.Name" placeholder="Enter Name" ng-required="true">
 ```
 
-To display validation messages for this control, the json file must have a key values pair in the following manner ie “<controlName>_<validationName> “: “Message”, where <controlName> is the name property on the control and the< validationName> is the one that gets registered with the $validators on the control. 
+To display validation messages for this control, the json file must have a key values pair in the following manner ie “controlName_validationName“: Message, where "controlName" is the name property on the control and the "validationName" is the one that gets registered with the $validators on the control. 
 NOTE: The keys are case sensitive and should be written ONLY in the following format
 {
     "Name_required": "Please provide a Name"
