@@ -3,7 +3,7 @@ Helper directives to manage the display of validation messages in an Angular app
 
 # Overview
 
-The library is built to ease one of the most trivial tasks involved in web development i.e. displaying form validation messages in the AngularJS realm. It is inspired by a number of form validations techniques available on the web and heavily borrows from ng-messages a library to facilitate the display of validations messages on the user screen.
+The library is built to ease one of the most trivial tasks involved in web development i.e. displaying form validation messages in the AngularJS realm. It is inspired by a number of form validation techniques available on the web and heavily borrows from ng-messages a library to facilitate the display of validations messages on the user screen.
 
 # Prerequisites
 
