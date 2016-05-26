@@ -1,0 +1,26 @@
+{
+  "name": "angular-formValidations",
+  "description": "Helper directivesHelper directives to manage the display of validation messages in an Angular app",
+  "main": "FormValidations.js",
+  "keywords": [
+    "angular",
+    "form",
+    "validations",
+    "ng-messages"
+  ],
+  "authors": [
+    "Sumanth Sampath"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-messages": "^1.5.5"
+  }
+}
