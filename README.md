@@ -23,6 +23,10 @@ The library is built to ease one of the most trivial tasks involved in web devel
 
 # Quick Start
 
+## bower
+
+bower install angular-formValidations
+
 Include the FormValidation.js  and the angular-messages.js file in the web application in the following manner
 ```html
 <head>
