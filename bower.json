@@ -13,12 +13,6 @@
   ],
   "license": "MIT",
   "homepage": "",
-  "ignore": [
-    "**/.*",
-    "node_modules",
-    "test",
-    "tests"
-  ],
   "dependencies": {
     "angular-messages": "^1.5.5"
   }
